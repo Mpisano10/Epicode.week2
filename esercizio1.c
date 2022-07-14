@@ -10,5 +10,5 @@ int main()
 	printf("Digita il secondo numero:\n");
 	scanf("%f", &b);
 	media=(a+b)/2;
-	printf("la media è: %6.2f", media);
+	printf("la media è: %6.2f", media);    
 }
