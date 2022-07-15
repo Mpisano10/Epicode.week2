@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//dichiarazioni di funzioni
 void menu ();
 void moltiplica ();
 void dividi ();
@@ -16,13 +16,13 @@ int main ()
 
 	switch(scelta)
 	{
-		case'A':
+		case'A':		//se si sceglie A prosegui con moltiplicazione
 		moltiplica ();
 		break;
-		case'B':
+		case'B':		// Con divisione 
 		dividi();
 		break;
-		case'C':
+		case'C':		// con funzione di ins_string
 		ins_string();
 		break;
 		default:	//aggiunta di controllo per  inserimento di comando non corretto
